@@ -22,6 +22,7 @@ Example:
 -x : priority queue array (pqa) or  perfect priority queue(ppq)
 
 ## References
-1. [Top-K paper]()
-2. [Top-K paper + uniform distribution]()
+1. [Top-K paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9217802)
+2. [Top-K paper + uniform
+   distribution](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9452148)
 3. [Top-K and Power Law distribution]()
