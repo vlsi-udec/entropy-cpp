@@ -7,8 +7,8 @@ C++ implementation of the proposed streaming algorithm to estimate the empirical
 Example:
 ```
 ./entropy-paper -f <pcap-file> -m3 -d 13 -w 15 -e 8 -q10 -scu -xpqa
-
 ```
+
 ## Arguments
 
 -f : Name of the input pcap file
@@ -22,6 +22,6 @@ Example:
 -x : priority queue array (pqa) or  perfect priority queue(ppq)
 
 ## References
-1. Top-K paper
-2. Top-K paper + uniform distribution
-3. Top-K and Power Law distribution
+1. [Top-K paper]()
+2. [Top-K paper + uniform distribution]()
+3. [Top-K and Power Law distribution]()
