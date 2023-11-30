@@ -11,15 +11,17 @@ Example:
 
 ## Arguments
 
--f : Name of the input pcap file
--m : Running mode has three options: zero is for the actual entropy, 1 for the Top-K paper, 2 for the Top-K paper + uniform distribution, and 3 for the current paper using the Top-K and Power Law
--v2: This parameter allows prints of the contents of the perfect priority queue (ppq) or priority queue array (pqa)
--d : dimensions of the count sketch, numbers of rows
--w : dimensions of the count sketch, numbers of buckets in each row
--e : number of queue elements
--q : number of queues
--s : sketch type (cm, cs, cu)
--x : priority queue array (pqa) or  perfect priority queue(ppq)
+|Parameter|Description|
+|:--------|:----------|
+|-f | Name of the input pcap file|
+|-m | Running mode has three options: zero is for the actual entropy, 1 for the Top-K paper, 2 for the Top-K paper + uniform distribution, and 3 for the current paper using the Top-K and Power Law|
+|-v | This parameter allows prints of the contents of the perfect priority queue (ppq) or priority queue array (pqa)|
+|-d | dimensions of the count sketch, numbers of rows|
+|-w | dimensions of the count sketch, numbers of buckets in each row|
+|-e | number of queue elements|
+|-q | number of queues|
+|-s | sketch type (cm, cs, cu)|
+|-x | priority queue array (pqa) or  perfect priority queue(ppq)|
 
 ## References
 1. [Top-K paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9217802)
